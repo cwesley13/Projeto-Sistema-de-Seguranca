@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
     font-family: 'Lato';
     
     
@@ -121,7 +122,7 @@ button:active {
     margin-top: 0px ;
     padding-top: 50px ;
     padding-bottom: 71px ;
-    background-color:	#D3D3D3;
+    background-color:	rgb(255, 255, 255);
     display:inline-block;
     
     
@@ -164,7 +165,7 @@ button:active {
 
 }
 main{
-    background-color:	#D3D3D3;
+    background-color:	rgb(255, 255, 255);
 
 }
 h2{
@@ -186,7 +187,7 @@ h2{
     margin-top: 0px ;
     padding-top: 50px ;
     padding-bottom: 70px ;
-    background-color:	#D3D3D3;
+    background-color:	rgb(255, 255, 255);
     display:inline-block;
     
 
