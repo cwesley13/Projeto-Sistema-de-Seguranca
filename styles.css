@@ -273,28 +273,94 @@ footer{
     font-size: 20px;
     font-weight: 400;
 }
+@media screen and (max-width:750px){   
+
+#logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+
+}    
+
+.header{
+    display: flex;
+    align-items:start;
+    flex-direction:column;
+    justify-content:start;
+    
+}
+.link-header{
+    margin-top: -50px;
+
+}
+#picture{
+ 
+    width: 50vh;
+
+    
+}
+
+.inicio{
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+    margin-left: -290px;
+}
+
+.um{
+    display: none;
+}
+.destaques{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content:flex-end;
+    
+
+}
+
+.destaque{
+    padding: 0;
+}
+
+h2{
+    margin: 0;
+    text-align: center;
+    color:rgb(8, 138, 206);
+}
+
+.camera{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+ .cam{
+    width: 20vh;
+    display: flex;
+    flex-direction:column;
+    justify-content:start;
+    align-items: start;
+    margin-left: -50px;
+ }
+ .cam1{
+    text-align: center;
+    margin-left: 50px;
+ }
+
+.cam2{
+    display: none;
+}
+footer{
+
+    display: block;
+    width: 50vh;
+    text-align:start;
+}
 
 
-
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
